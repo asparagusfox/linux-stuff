@@ -1,0 +1,19 @@
+ctrl ^ u 00ac ¬
+
+persistent: localectl [--no-convert] set-x11-keymap layout [model [variant [options]]] || layouts us and gb || quick switch using setxkbmap <us>
+
+ffmpeg -f x11grab -i :0.0 scrapy_oauth_detector_driver.mkv
+
+ffmpeg -i biscus2.wav -b:a 16k -acodec libmp3lame biscus2.mp3 #### epic compression dude
+
+systemctl try-restart NetworkManager
+Helps when it cuts out for some reason
+
+pacman -U /home/user/ceofhack-0.6-1-x86_64.pkg.tar.gz
+           Install ceofhack-0.6-1 package from a local file.
+
+use git checkout <branch> <filename> to selectivley merge files
+
+Use .bash_profile to run commands that should run only once, such as customizing the $PATH environment variable .
+
+Put the commands that should run every time you launch a new shell in the .bashrc file. This include your aliases and functions , custom prompts, history customizations , and so on.
