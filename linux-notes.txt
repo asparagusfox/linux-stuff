@@ -14,6 +14,6 @@ pacman -U /home/user/ceofhack-0.6-1-x86_64.pkg.tar.gz
 
 use git checkout <branch> <filename> to selectivley merge files
 
-Use .bash_profile to run commands that should run only once, such as customizing the $PATH environment variable .
+Use .bash_profile to run commands that should run only once, such as customizing the $PATH environment variable. .profile is checked before this.
 
 Put the commands that should run every time you launch a new shell in the .bashrc file. This include your aliases and functions , custom prompts, history customizations , and so on.
