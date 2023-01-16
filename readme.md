@@ -1,1 +1,1 @@
-on github until I can host a website or something
+on github until I can host files
